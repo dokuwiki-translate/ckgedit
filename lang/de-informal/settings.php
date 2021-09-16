@@ -3,6 +3,7 @@
 /**
  * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
  *
+ * @author Moses <mosesmami0@gmail.com>
  * @author Michael <michael@krmr.org>
  * @author Juergen-aus-Koeln <H-J-Schuemmer@Web.de>
  * @author David McAllister <info@bionichead.com>
@@ -38,3 +39,4 @@ $lang['font_options']          = 'Schriftoptionen entfernen';
 $lang['color_options']         = 'Farboptionen entfernen';
 $lang['alt_toolbar']           = 'Funktionen, die aus der CKEditor-Toolbar entfernt werden sollen';
 $lang['mfiles']                = 'Unterstützung von mfile Dateien aktivieren';
+$lang['allow_ckg_filebrowser'] = 'Wähle den/die Datei-/Medien-Browser, welche die Nutzer verwenden dürfen.';
