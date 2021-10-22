@@ -3,7 +3,7 @@
 /**
  * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
  *
- * @author Nicolás Arredondo <nicoarredondo76@gmail.com>
+ * @author Julio García <yllelder@gmail.com>
  * @author Olaf Reitmaier <olafrv@gmail.com>
  */
 $lang['btn_dw_edit']           = 'Editor DW';
@@ -42,10 +42,9 @@ $lang['js']['dwp_updated']     = 'La prioridad del Editor ha sido actualizada a:
 $lang['js']['dwp_not_sel']     = 'La prioridad del Editor no está seleccionada: será determinada por el parámetro de configuración dw_users_group';
 $lang['js']['mediamgr_notice'] = 'Use la ventana de vínculo para insertar';
 $lang['js']['font_conflict']   = 'El interprete encontró uno o más conflictos vínculos-fuentes. Presionando OK, retornará al editor y removerá los estilos de fuente. Para mayor información véa: https://www.dokuwiki.org/plugin:ckgedit:font_styling#conflicts_with_dokuwiki_links';
-$lang['js']['ckg_paste_restart'] = 'Al actualizar el editor, se activara la opción Pegar';
-$lang['js']['on']              = 'Activado';
-$lang['js']['off']             = 'Desactivado';
-$lang['js']['broken_image_1']  = 'Usa el plugin pegar imagen del administrador de medios de Dokuwiki o intenta con la herramienta Pegar de MS Word';
+$lang['js']['ckg_paste_restart'] = 'Al recargar el editor, se activará el soporte de pegado suplementario';
+$lang['js']['broken_image_1']  = 'Utiliza el plugin imagePaste con el Mediamanager de Dokuwiki o prueba la herramienta de pegado de MS Word.';
+$lang['js']['broken_image_2']  = 'Las imágenes obtenidas por Ctrl-v con datos sin procesar de más de 2,5M pueden colgarse. Esta imagen es:';
 $lang['mediamgr_imgonly']      = 'Cargue imágenes solamente usando la ventana de imágenes:';
 $lang['uprofile_title']        = 'Seleccione Su Editor Predeterminado';
 $lang['btn_val_dw_fb']         = 'Explorador de Archivos DW';
@@ -54,3 +53,11 @@ $lang['btn_title_dw_fb']       = 'Guardar y cerrar el editor y cambiar al Explor
 $lang['btn_title_ckg_fb']      = 'Guardar y cerrar el editor y cambiar al Explorador de Archivos CKG';
 $lang['formatdel']             = 'Etiquetas removidas de(los) encabezado(s): no soportados por Dokuwiki';
 $lang['fontdel']               = 'Etiquetas de Fuentes removidas de(los) vínculo(s): no soportados por Dokuwiki';
+$lang['ws_cantcopy']           = 'Para la configuración de winstyle: no se puede copiar en ';
+$lang['ws_copiedhtaccess']     = 'Para la configuración de winstyle, copia el .htaccess protegido en data/media
+Ver ckgedit/fckeditor/userfiles/.htacess.security';
+$lang['userfiles_perm']        = 'Por favor, comprueba los permisos; ckgedit no tiene acceso';
+$lang['sym_not created_1']     = 'No se puede crear ';
+$lang['sym_not created_2']     = 'No se pueden crear enlaces simbólicos para el explorador de archivos: no se puede acceder: ';
+$lang['sym_not created_3']     = 'Hubo un error al intentar crear enlaces simbólicos en ';
+$lang['syms_created']          = 'Se han creado los siguientes enlaces en el directorio userfiles: ';
